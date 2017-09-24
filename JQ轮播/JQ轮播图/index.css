@@ -1,0 +1,78 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+.lunbo-box{
+	width: 800px;
+	height: 533px;
+	margin: 50px auto;
+	position: relative;
+}
+.lunbo{
+	width: 800px;
+	height: 533px;
+}
+.lunbo-box .lunbo .imgs a img{
+	width: 800px;
+	height: 533px;
+	z-index: 1;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+} 
+.lunbo-box .lunbo .num{
+	width: 350px;
+	height: 50px;
+	z-index: 3;
+	position: absolute;
+	bottom:20px;
+	left:50%;
+	margin-left:-175px; 
+}
+.lunbo-box .lunbo .num li{
+	width: 50px;
+	height: 30px;
+	background-color: rgba(0,255,0,0.4);
+	float: left;
+	margin: 10px;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+	font-weight: 300;
+	color: rgba(255,255,255,0.3);
+}
+.lunbo-box .lunbo .btn{
+	width: 50px;
+	height: 50px;
+	/*background-color: rgba(255,255,255,0.3);*/
+	font-weight: 600;
+	font-size: 50px;
+	color: rgba(255,255,255,0.4);
+	text-align: center;
+	line-height: 50px;
+	display: block;
+	z-index: 3;
+}
+.lunbo-box .lunbo .left{
+	position: absolute;
+	top:50%;
+	left: 50px;
+	margin-top: -25px;
+}
+.lunbo-box .lunbo .right{
+	position: absolute;
+	top:50%;
+	right: 50px;
+	margin-top: -25px;
+}
+.lunbo-box .lunbo .btn-active{
+	color: rgba(255,255,255,0.9);
+}
+.lunbo-box .lunbo .num .num-active{
+	background-color: rgba(44,255,44,0.8);
+	color: #fff;
+}
+
